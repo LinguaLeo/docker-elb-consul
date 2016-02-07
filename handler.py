@@ -4,7 +4,7 @@ import os
 import sys
 import json
 import time
-import boto
+import boto.ec2.elb
 from subprocess import check_output, CalledProcessError
 
 AWS_REGION = os.environ['AWS_REGION']
